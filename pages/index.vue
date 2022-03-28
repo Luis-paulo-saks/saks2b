@@ -36,5 +36,20 @@ export default {
   padding: 0px;
   margin: 0px 2%;
   justify-content: center;
+  background: red;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    box-sizing: border-box;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px 0%;
+    justify-content: center;
+    background: bisque;
+  }
 }
 </style>

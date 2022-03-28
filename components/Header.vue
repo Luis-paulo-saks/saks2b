@@ -82,6 +82,7 @@ export default {
   display: flex;
   align-items: center;
   color: #0052fe;
+  position: absolute;
 }
 
 .paginasmobile {
@@ -93,8 +94,8 @@ export default {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    width: 100vw;
-    height: 25vh;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -102,6 +103,8 @@ export default {
     flex-wrap: wrap;
     align-content: flex-start;
     align-items: baseline;
+    background-color: red;
+    position: relative;
   }
   .logo {
     height: 10vh;
