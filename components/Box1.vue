@@ -19,15 +19,25 @@
     </div>
 
     <div class="coteudomobile">
+
       <div class="flexdirection">
+
+        <!-- 
         <div class="textomobile">
           <h1>
             Saks, a primeira savetech da América latina
           </h1>
         </div>
+        -->
         <div class="imagemmobile">
           <div>
-            <img src="../assets/happy-businesspeople-using-technology-devices-gadg-2021-08-29-06-50-51-utc 1.svg" alt="">
+            <!-- <img src="../assets/happy-businesspeople-using-technology-devices-gadg-2021-08-29-06-50-51-utc 1.svg" alt="">
+          -->
+            <div class="textomobile">
+              <h1>
+                Saks, a primeira savetech da América latina
+              </h1>
+            </div>
           </div>
         </div>
 
@@ -68,7 +78,7 @@ export default {
 }
 
 .texto {
-  width: 50%;
+  width: 40%;
   height: 100%;
   display: flex;
   align-content: center;
@@ -78,7 +88,7 @@ export default {
 }
 
 .imagem {
-  width: 50%;
+  width: 40%;
   height: 100%;
 }
 
@@ -145,20 +155,13 @@ button {
     width: auto;
     height: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
 
   .texto {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    justify-content: center;
-    padding: 50px;
     display: none;
   }
 
@@ -205,46 +208,57 @@ button {
     justify-content: center;
     align-content: center;
     align-items: center;
-    height: 40rem;
+    height: auto;
   }
-
-  .textomobile {
-    background-color: #376fe3;
-    width: 80%;
-    margin-left: 10px;
-    height: 16rem;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    z-index: 1;
-    position: relative;
-    top: 30%;
-    left: 6%;
-    padding: 8px;
-  }
-
-  .imagemmobile {
-    width: 80%;
-    height: 382px;
-    z-index: 2;
-    mix-blend-mode: multiply;
-  }
-
-  img {
-    width: 500px;
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-  }
-
+  /*
   .flexdirection {
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+      align-items: center;
+  }
+*/
+  .textomobile {
+    background-color: #376fe3;
+    width: 80%;
+    height: 25vh;
+    margin-left: 18%;
+    margin-top: 40%;
+    z-index: 1;
+    padding: 8px;
+    mix-blend-mode: multiply;
   }
 
+  .imagemmobile {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    mix-blend-mode: multiply;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 2;
+    background: linear-gradient(
+        0deg,
+        rgba(5, 75, 220, 0.1),
+        rgba(5, 75, 220, 0.1)
+      ),
+      url("../assets/happy-businesspeople-using-technology-devices-gadg-2021-08-29-06-50-51-utc 1.svg");
+
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-size: 140% 100%;
+    top: 0;
+    right: 0;
+  }
+  /*
+  img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+  }
+*/
   .texto-mobile {
     width: 90%;
     font-family: "DM Sans";
@@ -253,25 +267,26 @@ button {
     font-size: 16px;
     line-height: 124.7%;
     color: #131c2f;
-    padding: 0px !important;
-    margin: 0px !important;
-    background-color: blue;
     top: 20%;
     position: relative;
   }
 
   .button {
-    width: 90%;
+    /* width: 100%;
+    height: 78px;
+    background: #376fe3;*/
+    border-radius: 10px;
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 124.7%;
-    color: #131c2f;
-    padding: 0px !important;
-    margin: 0px !important;
-    top: 20%;
-    position: relative;
+    color: #fbfbfb;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
   }
 }
 /************************************************************************************************************************************************************************************************************ */
@@ -287,6 +302,8 @@ button {
 /************************************************************************************************************************************************************************************************************ */
 /************************************************************************************************************************************************************************************************************ */
 /************************************************************************************************************************************************************************************************************ */
+/*
+
 @media only screen and (width: 768px) {
   .imagemmobile {
     width: 80%;
@@ -301,7 +318,7 @@ button {
   }
 
   .textomobile {
-    /* background-color: #376fe3; */
+    /* background-color: #376fe3; 
     background-color: red;
     width: 100%;
     margin-left: 10px;
@@ -370,7 +387,7 @@ button {
 }
 
 @media only screen and (max-width: 375px) {
-  /* ou 390*/
+  /* ou 390
   .container {
     padding: 0;
     margin: 0;
@@ -507,4 +524,6 @@ button {
     position: relative;
   }
 }
+
+*/
 </style>

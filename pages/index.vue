@@ -10,10 +10,12 @@
     <Box7 />
     <Box8 />
     <Box9 />
+
     <Box10 />
     <Box6 />
     <Carousel />
     <Footer />
+
   </div>
 </template>
 
@@ -30,26 +32,11 @@ export default {
 .container {
   box-sizing: border-box;
   min-width: 95vw;
-  height: auto;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 0px;
   margin: 0px 2%;
   justify-content: center;
-  background: red;
-}
-
-@media only screen and (max-width: 1024px) {
-  .container {
-    box-sizing: border-box;
-    width: 100vw;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-    margin: 0px 0%;
-    justify-content: center;
-    background: bisque;
-  }
 }
 </style>

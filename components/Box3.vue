@@ -93,4 +93,52 @@ img {
   background: #f3f3f3;
   border-radius: 10px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 124.7%;
+    color: #376fe3;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+
+  img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .Card {
+    width: 90%;
+    height: 80px;
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 124.7%;
+    color: #131c2f;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    padding: 12px;
+    margin: 1px;
+  }
+  p {
+    width: 80%;
+  }
+}
 </style>

@@ -97,4 +97,54 @@ img {
   width: 100%;
   height: 100%;
 }
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .texto {
+    width: 100%;
+    height: 80%;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 124.7%;
+    display: flex;
+    text-align: center;
+    color: #131c2f;
+    flex-direction: column;
+    padding: 32px;
+  }
+
+  a {
+    color: #376fe3;
+    text-decoration: underline;
+  }
+  .imagem {
+    width: 50%;
+    height: 100%;
+    display: none;
+  }
+
+  .img {
+    width: 25.38px;
+    height: 25.38px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
 </style>

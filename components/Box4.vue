@@ -35,4 +35,15 @@ export default {
 #corazul {
   color: #376fe3;
 }
+
+@media only screen and (max-width: 1024px) {
+  #corazul {
+    color: black;
+    font-weight: normal;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
 </style>
