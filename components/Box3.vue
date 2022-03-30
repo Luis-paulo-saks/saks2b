@@ -71,7 +71,6 @@ export default {
   line-height: 124.7%;
   color: #376fe3;
   flex-wrap: wrap;
-  background: red;
 }
 
 img {
