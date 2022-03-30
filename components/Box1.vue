@@ -92,6 +92,11 @@ export default {
   height: 100%;
 }
 
+.imagem img {
+  width: 100%;
+  height: 100%;
+}
+
 h1 {
   font-family: "DM Sans";
   font-style: normal;

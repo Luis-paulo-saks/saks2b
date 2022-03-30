@@ -71,6 +71,7 @@ export default {
   line-height: 124.7%;
   color: #376fe3;
   flex-wrap: wrap;
+  background: red;
 }
 
 img {
@@ -79,8 +80,8 @@ img {
 }
 
 .Card {
-  width: 33%;
-  height: 222.35px;
+  width: 30%;
+  height: auto;
   display: flex;
   align-items: left;
   flex-direction: column;
@@ -92,6 +93,8 @@ img {
   color: #376fe3;
   background: #f3f3f3;
   border-radius: 10px;
+  margin: 1%;
+  padding: 2%;
 }
 
 @media only screen and (max-width: 1024px) {

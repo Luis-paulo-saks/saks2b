@@ -8,58 +8,58 @@
 
       <div class="card">
         <div>
-          <a href="">endeavor.org.br</a>
+          <a href="https://endeavor.org.br/">endeavor.org.br</a>
           <br>
           <br>
           <p>Saks é uma das empresas selecionadas no Scale-Up Endeavor 2022</p>
           <br><br><br><br>
-          <a href="">Leia a matéria completa →</a>
+          <a href="https://endeavor.org.br/sobre-a-endeavor/scale-up-endeavor-2022-1/">Leia a matéria completa →</a>
         </div>
       </div>
       <div class="card">
-        <a href="">braziljournal.com</a>
+        <a href="https://braziljournal.com/">braziljournal.com</a>
         <br>
         <b></b>
         <p>A Saks quer roubar mercado dos bancões na previdência. Os VCs estão dando força</p>
         <br><br><br><br>
-        <a href="">Leia a matéria completa →</a>
+        <a href="https://endeavor.org.br/sobre-a-endeavor/scale-up-endeavor-2022-1/">Leia a matéria completa →</a>
       </div>
       <div class="card">
-        <a href="">beyondthelaw.news</a>
+        <a href="https://www.beyondthelaw.news/">beyondthelaw.news</a>
         <br>
         <br>
         <p>Digital Private Pension Broker Saks Lands BRL 26 Million Seed Investment from Itaú-Unibanco’s Private Equity Fund Kinea and Canary</p>
         <br><br>
-        <a href="">Leia a matéria completa →</a>
+        <a href="https://www.beyondthelaw.news/digital-private-pension-broker-saks-lands-brl-26-million-seed-investment-from-itau-unibancos-private-equity-fund-kinea-and-canary/">Leia a matéria completa →</a>
       </div>
     </div>
     <div class="containermobile">
       <VueSlickCarousel v-bind="settings">
         <div class="card">
           <div>
-            <a href="">endeavor.org.br</a>
+            <a href="https://endeavor.org.br/">endeavor.org.br</a>
             <br>
             <br>
             <p>Saks é uma das empresas selecionadas no Scale-Up Endeavor 2022</p>
             <br><br><br><br>
-            <a href="">Leia a matéria completa →</a>
+            <a href="https://endeavor.org.br/sobre-a-endeavor/scale-up-endeavor-2022-1/">Leia a matéria completa →</a>
           </div>
         </div>
         <div class="card">
-          <a href="">braziljournal.com</a>
+          <a href="https://braziljournal.com/">braziljournal.com</a>
           <br>
           <b></b>
           <p>A Saks quer roubar mercado dos bancões na previdência. Os VCs estão dando força</p>
           <br><br><br><br>
-          <a href="">Leia a matéria completa →</a>
+          <a href="https://braziljournal.com/a-saks-quer-roubar-mercado-dos-bancoes-na-previdencia-o-pessoal-do-vc-esta-dando-forca">Leia a matéria completa →</a>
         </div>
         <div class="card">
-          <a href="">beyondthelaw.news</a>
+          <a href="https://www.beyondthelaw.news/">beyondthelaw.news</a>
           <br>
 
           <p>Digital Private Pension Broker Saks Lands BRL 26 Million Seed Investment from Itaú-Unibanco’s Private Equity Fund Kinea and Canary</p>
           <br><br>
-          <a href="">Leia a matéria completa →</a>
+          <a href="https://www.beyondthelaw.news/digital-private-pension-broker-saks-lands-brl-26-million-seed-investment-from-itau-unibancos-private-equity-fund-kinea-and-canary/">Leia a matéria completa →</a>
         </div>
       </VueSlickCarousel>
     </div>
@@ -103,7 +103,8 @@ export default {
   margin: 0;
   box-sizing: border-box;
   width: 100vw;
-  height: 55vh;
+  height: auto;
+  min-height: 80vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

@@ -20,7 +20,7 @@ export default {
   margin: 0;
   box-sizing: border-box;
   width: 100vw;
-  height: 25vh;
+  height: 35vh;
   display: flex;
   flex-direction: row;
   justify-content: center;

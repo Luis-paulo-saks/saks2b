@@ -1,21 +1,74 @@
 <template>
-  <div class="container">
-    <div class="texto mobile">
-      <div>
-        <img src="../assets/chapeu.svg" alt="">
-        <br>
-        <br>
+  <div>
+    <div class="container">
+      <div class="texto">
+        <div>
+          <img src="../assets/chapeu.svg" alt="">
+          <br>
+          <br>
+        </div>
+        <div>
+          <p class="expecializado">Você vai receber treinamento e desenvolvimento especializado</p>
+        </div>
+        <div>
+          <h4> O parceiro Saks tem acompanhamento completo do nosso time de treinamento e desenvolvimento. Desse jeito, você escala seu modelo de atendimento de um jeito simples. </h4>
+
+        </div>
+        <div>
+
+          <h2 class="treinamentos"> Acesso aos treinamentos e Ferramentas da Saks: </h2>
+
+          <ul>
+            <li>Aplicativo</li>
+            <li> Plataforma</li>
+            <li> Produto previdência privada</li>
+            <li>Planilhas Auxiliares</li>
+            <li> Follow up de todos fundos disponíveis na plataforma</li>
+          </ul>
+
+          <h2 class="treinamentos"> Acompanhamento semanal nos 3 primeiros meses com:</h2>
+
+          <ul>
+            <li>Suporte para reuniões de fechamento</li>
+            <li> Discurso de venda</li>
+            <li> Estratégia de aquisição de clientes</li>
+          </ul>
+
+        </div>
+
+        <div>
+          <a href="https://conteudo.hellosaks.com/saks2b-cadastro">
+            <b-button variant="primary">Seja nosso parceiro</b-button>
+          </a>
+        </div>
       </div>
-      <div>
-        <p class="expecializado">Você vai receber treinamento e desenvolvimento especializado</p>
-      </div>
-      <div>
-        <h4> O parceiro Saks tem acompanhamento completo do nosso time de treinamento e desenvolvimento. Desse jeito, você escala seu modelo de atendimento de um jeito simples. </h4>
+
+      <div class="imagem">
+        <img src="../assets/Group 816.png" alt="" class="desktop">
 
       </div>
-      <div>
 
-        <h2 class="treinamentos"> Acesso aos treinamentos e Ferramentas da Saks: </h2>
+    </div>
+
+    <div class="containermobile">
+      <div class="imagem">
+        <img src="../assets/Group 816.png" alt="" class="desktop">
+
+      </div>
+
+      <div class="imagem-mobile">
+        <img src="../assets/chapeumobile.svg" alt="">
+        <p class="expecializado-mobile">Você vai receber treinamento e desenvolvimento especializado</p>
+
+      </div>
+
+      <div style=" background: #376fe3;">
+        <div class="treinamentosMobile">
+          <h4> O parceiro Saks tem acompanhamento completo do nosso time de treinamento e desenvolvimento. Desse jeito, você escala seu modelo de atendimento de um jeito simples. </h4>
+
+        </div>
+
+        <h2 class="treinamentosMobile"> Acesso aos treinamentos e Ferramentas da Saks: </h2>
 
         <ul>
           <li>Aplicativo</li>
@@ -25,7 +78,7 @@
           <li> Follow up de todos fundos disponíveis na plataforma</li>
         </ul>
 
-        <h2 class="treinamentos"> Acompanhamento semanal nos 3 primeiros meses com:</h2>
+        <h2 class="treinamentosMobile"> Acompanhamento semanal nos 3 primeiros meses com:</h2>
 
         <ul>
           <li>Suporte para reuniões de fechamento</li>
@@ -34,46 +87,6 @@
         </ul>
 
       </div>
-
-      <div>
-        <a href="https://conteudo.hellosaks.com/saks2b-cadastro">
-          <b-button variant="primary">Seja nosso parceiro</b-button>
-        </a>
-      </div>
-    </div>
-    <div class="imagem">
-      <img src="../assets/Group 816.png" alt="" class="desktop">
-
-    </div>
-    <div class="imagem-mobile">
-      <img src="../assets/chapeumobile.svg" alt="">
-      <p class="expecializado-mobile">Você vai receber treinamento e desenvolvimento especializado</p>
-
-    </div>
-
-    <div style=" background: #376fe3;">
-      <div class="treinamentosMobile">
-        <h4> O parceiro Saks tem acompanhamento completo do nosso time de treinamento e desenvolvimento. Desse jeito, você escala seu modelo de atendimento de um jeito simples. </h4>
-
-      </div>
-
-      <h2 class="treinamentosMobile"> Acesso aos treinamentos e Ferramentas da Saks: </h2>
-
-      <ul>
-        <li>Aplicativo</li>
-        <li> Plataforma</li>
-        <li> Produto previdência privada</li>
-        <li>Planilhas Auxiliares</li>
-        <li> Follow up de todos fundos disponíveis na plataforma</li>
-      </ul>
-
-      <h2 class="treinamentosMobile"> Acompanhamento semanal nos 3 primeiros meses com:</h2>
-
-      <ul>
-        <li>Suporte para reuniões de fechamento</li>
-        <li> Discurso de venda</li>
-        <li> Estratégia de aquisição de clientes</li>
-      </ul>
 
     </div>
   </div>
@@ -96,17 +109,21 @@ export default {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
+  padding: 64px;
 }
 
 .texto {
-  width: 50%;
+  width: 40%;
   height: 100%;
   padding: 32px;
 }
 
 .imagem {
-  width: 50%;
+  width: 60%;
+  height: 100%;
+}
+.imagem img {
+  width: 100%;
   height: 100%;
 }
 
@@ -126,12 +143,7 @@ export default {
   line-height: 124.7%;
 }
 
-ul {
-  background: #376fe3;
-}
-
 li {
-  background: #376fe3;
   color: black;
 }
 
@@ -143,9 +155,14 @@ h4 {
 .mobile {
   display: none;
 }
-
+.containermobile {
+  display: none;
+}
 @media only screen and (max-width: 1024px) {
   .container {
+    display: none;
+  }
+  .containermobile {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -155,6 +172,7 @@ h4 {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-color: #376fe3;
   }
 
   .texto {
@@ -178,7 +196,7 @@ h4 {
     font-weight: 400;
     font-size: 32px;
     line-height: 99.7%;
-    color: #ffffff;
+    color: #ffffff !important;
     width: 80%;
     padding: 32px;
   }

@@ -154,8 +154,12 @@ export default {
   margin: 0;
   box-sizing: border-box;
   width: 100%;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: flex-start;
 }
 
 .text {

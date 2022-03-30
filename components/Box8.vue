@@ -75,14 +75,13 @@ export default {
   width: 100vw;
   height: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
 }
 
 .imagem {
-  background-color: cadetblue;
   width: 50%;
   height: 100%;
   display: flex;
@@ -90,7 +89,6 @@ export default {
   align-items: center;
 }
 .texto {
-  background-color: blueviolet;
   width: 50%;
   height: 100%;
   display: flex;
@@ -144,9 +142,8 @@ li {
   }
 
   .imagemmobile2 img {
-    width: 64px;
-    height: 64px;
-    margin-left: 16px;
+    width: 96px;
+    margin: 16px;
   }
 
   .aplicativosaks {

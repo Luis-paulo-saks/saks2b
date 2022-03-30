@@ -94,16 +94,18 @@ export default {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  width: 100vw;
-  height: 70vh;
+  min-width: 98.5vw;
+  height: 75vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
+  /* background: #131c2f;*/
+  background: #131c2f;
 }
 
 .divlogo {
-  background-color: indigo;
+  /* background-color: indigo;*/
   width: 50%;
   height: 60%;
 }
@@ -111,14 +113,15 @@ export default {
 .divmobilecorretoras {
   width: 50%;
   height: 60%;
-  background: yellow;
+  /*  background: yellow;*/
 }
 
 .divtexto {
   width: 100%;
   height: 40%;
   padding: 50px;
-  background-color: tomato;
+  /* background-color: tomato;*/
+  color: rgba(230, 237, 251, 0.5);
 }
 
 .logo {
@@ -133,7 +136,7 @@ export default {
 
 .mobileicons {
   width: 30%;
-  background: gray;
+  /* background: gray;*/
   padding: 32px;
   height: 100%;
   text-align: center;
@@ -143,10 +146,11 @@ export default {
   width: 70%;
   padding: 32px;
   height: 100%;
-  background: crimson;
+  /* background: crimson;*/
   box-sizing: border-box;
   line-height: 10%;
   font-size: 12px;
+  color: rgba(230, 237, 251, 0.5);
 }
 
 .mobileinfo {
@@ -162,7 +166,7 @@ export default {
   justify-content: space-around;
   align-items: center;
   height: 50%;
-  background-color: aqua;
+  /* background-color: aqua;*/
 }
 
 .containermobile {
