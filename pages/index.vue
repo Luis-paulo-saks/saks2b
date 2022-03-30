@@ -39,6 +39,5 @@ export default {
   justify-content: center;
   align-content: center;
   align-items: center;
-  background: red;
 }
 </style>
